@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Elf Scouts have been sighted near Green Village!" />
+<announce delay="20000" type="event" message="The elves attack from shadowthorn!" />
+<announce delay="60000" type="event" message="Green Village is under attack!" />
+
+  <areaspawn delay="60000" fromx="1378" fromy="831" fromz="7" tox="1390" toy="833" toz="7">
+    <monster name="elf" amount="8" />
+    <monster name="elf scout" amount="8" />
+    <monster name="elf arcanist" amount="6" />
+  </areaspawn>
+
+<areaspawn delay="60000" fromx="1396" fromy="821" fromz="7" tox="1410" toy="826" toz="7">
+    <monster name="elf" amount="8" />
+    <monster name="elf scout" amount="8" />
+    <monster name="elf arcanist" amount="6" />
+  </areaspawn>
+
+<areaspawn delay="30000" fromx="1437" fromy="833" fromz="7" tox="1505" toy="827" toz="7">
+    <monster name="elf" amount="25" />
+    <monster name="elf scout" amount="25" />
+    <monster name="elf arcanist" amount="15" />
+  </areaspawn>
+
+
+</raid>

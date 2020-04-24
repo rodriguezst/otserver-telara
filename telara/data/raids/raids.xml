@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+
+
+	<!-- romBosses -->
+
+<raid name="Ghazbaran" file="romBosses/Ghazbaran.xml" interval2="1440" margin="160" />
+<raid name="Annihilon" file="romBosses/Annihilon.xml" interval2="440" margin="70"/>
+<raid name="Ferumbras" file="romBosses/Ferumbras.xml" interval2="1440" margin="100"/>
+<raid name="Jaul" file="romBosses/Jaul.xml" interval2="1440" margin="90"/>
+<raid name="Massacre" file="romBosses/Massacre.xml" interval2="1440" margin="100"/>
+<raid name="Zulazza the Corruptor" file="romBosses/Zulazza the Corruptor.xml" interval2="1440" margin="60"/>
+<raid name="The Welter" file="romBosses/The Welter.xml" interval2="440" margin="60"/>
+<raid name="Morgaroth" file="romBosses/Morgaroth.xml" interval2="1440" margin="70"/>
+<raid name="Ferumbras" file="romBosses/Ferumbras.xml" interval2="1440" margin="120"/>
+<raid name="Ojubus" file="romBosses/Ojubus.xml" interval2="1440" margin="70"/>
+<raid name="Orshabaal" file="romBosses/Orshabaal.xml" interval2="440" margin="90"/>
+<raid name="The Noxius Spawn" file="romBosses/The Noxius Spawn.xml" interval2="440" margin="60"/>
+<raid name="Ushuriel" file="romBosses/Ushuriel.xml" interval2="440" margin="60"/>
+<raid name="Zugorosh" file="romBosses/Zugorosh.xml" interval2="440" margin="60"/>
+</raids>

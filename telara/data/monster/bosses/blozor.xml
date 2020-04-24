@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blozor" nameDescription="blozor" race="venom" experience="402000" speed="450" manacost="0">
+    <health now="170000" max="170000"/>
+	<look type="238" corpse="6532"/>
+    <targetchange interval="10000" chance="50"/>
+    <strategy attack="100" defense="10"/>
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="85"/>
+        <flag runonhealth="60000"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" skill="145" attack="155"/>
+        <attack name="death" interval="2500" chance="51" length="8" spread="0" min="-750" max="-1700">
+            <attribute key="areaEffect" value="PLANTATTACK"/>
+        </attack>
+        <attack name="death" interval="2000" chance="25" target="1" radius="7" min="-590" max="-900">
+            <attribute key="areaEffect" value="GROUNDSHAKER"/>
+        </attack>
+        <attack name="death" interval="1600" chance="20" target="1" radius="9" min="-790" max="-800">
+            <attribute key="areaEffect" value="CARNIPHILA"/>
+        </attack>
+        <attack name="earth" interval="1500" chance="20" target="1" radius="6" min="-400" max="-900">
+            <attribute key="areaEffect" value="SMALLPLANTS"/>
+        </attack>
+        <attack name="death" interval="2900" chance="20" radius="9" target="1" min="-500" max="-1255">
+            <attribute key="areaEffect" value="STUN"/>
+        </attack>
+    </attacks>
+    <defenses armor="98" defense="66">
+        <defense name="healing" interval="2000" chance="15" min="730" max="1495">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </defense>
+    </defenses>
+    <elements>
+        <element icePercent="15"/>
+        <element deathPercent="20"/>
+	<element firePercent="-10"/>
+	<element energyPercent="-10"/>
+    </elements>
+    <immunities>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+	<immunity earth="1" />
+    </immunities>
+    <voices interval="3000" chance="6">
+        <voice sentence="PLAGUE WILL DROP IN THE CITY!" yell="1"/>
+        <voice sentence="HOW DARE YOU HARASSING ME?!" yell="1"/>
+        <voice sentence="ZAAAAAAAAAAHHH." yell="1"/>
+    </voices>
+	<loot>
+		<item id="6500" chance="65000" />				<!-- demonic essence -->
+		<item id="2152" countmax="81" chance="85000" />	<!-- platinum coin -->
+		<item id="2155" chance="70000" />				<!-- green gem -->
+		<item id="7590" chance="25000" />				<!-- great mana potion -->
+		<item id="2149" countmax="6" chance="27000" />	<!-- small emerald -->
+		<item id="8473" chance="27000" />				<!-- ultimate health potion -->
+		<item id="8821" chance="4500" />				<!-- witchhunter's coat -->
+		<item id="2522" chance="3250" />				<!-- great shield -->
+		<item id="6300" chance="15000" />				<!-- death ring -->
+		<item id="2151" countmax="9" chance="22000" />	<!-- talon -->
+		<item id="8853" chance="7500" />				<!-- ironworker -->
+		<item id="8882" chance="4700" />				<!-- earthborn titan armor -->
+		<item id="8472" chance="15000" />				<!-- great spirit potion -->
+		<item id="2164" chance="18000" />				<!-- might ring -->
+		<item id="2165" chance="18000" />				<!-- stealth ring -->
+		<item id="2144" countmax="15" chance="13000" />	<!-- black pearl -->
+		<item id="2167" chance="9000" />					<!-- energy ring -->
+		<item id="2176" chance="19900" />					<!-- orb -->
+		<item id="2645" chance="11500" />					<!-- steel boots -->
+		<item id="7885" chance="25000" />				<!-- terra legs -->
+		<item id="7422" chance="10800" />					<!-- jade hammer -->
+		<item id="18449" chance="6800" />					<!-- decorative ribbon -->
+		<item id="2659" chance="2200" />					<!-- ball gown -->
+	</loot>
+</monster>

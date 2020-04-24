@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Alice" script="Captain Alice.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="142" head="0" body="57" legs="20" feet="39" addons="1" corpse="2212"/>
+    <parameters>
+    </parameters>
+</npc>

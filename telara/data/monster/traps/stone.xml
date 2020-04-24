@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Stone" nameDescription="a stone" race="undead" experience="0" speed="0" manacost="0">
+	<health now="80050" max="80050"/>
+	<look typeex="1304"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+		<flag hidehealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="physical" interval="2000" chance="15" range="7" min="-350" max="-650">
+			<attribute key="shootEffect" value="throwingknife" />
+		</attack>
+</attacks>
+		<defenses armor="40" defense="40">
+		<defense name="healing" interval="3000" chance="17" min="350" max="750">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+</defenses>
+	<elements>
+	<element deathPercent="15" />
+	<element icePercent="15" />
+	<element energyPercent="15" />
+	<element earthPercent="15" />
+    	<element icePercent="15" />
+	<element firePercent="15" />
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+</monster>

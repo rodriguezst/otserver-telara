@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Grizzly Ad" script="tasksystem.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100" />
+  <look type="143" head="39" body="113" legs="38" feet="0" addons="3"/>
+<voices>
+<voice text="True warriors don't show weakness." interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+    <parameter key="message_greet" value="Hello |PLAYERNAME|, I've been wondering if you would never appear.. Are you interested in a {challenge} or you're just looking for your {reward}?"/>
+    <parameter key="message_farewell" value="See you later |PLAYERNAME|."/>
+	<parameter key="message_walkaway" value="I guess it's a goodbye." />
+</parameters>
+</npc>﻿

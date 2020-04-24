@@ -1,0 +1,7 @@
+------------------------------
+Reported by: Sad Feet
+Target: Mochileiro Das Galaxias
+Type: 2
+Reason: 13
+Comment: Bot 100% afk
+------------------------------

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+  <!--Single Spawns-->
+  <announce delay="1000" type="event" message="Beware of Necropharus!" />
+  <singlespawn delay="1000" name="Necropharus" x="1125" y="733" z="11" />
+</raid>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Betty" script="Captain Betty.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="142" head="79" body="10" legs="52" feet="15" addons="2" corpse="2212"/>
+    <parameters>
+    </parameters>
+</npc>

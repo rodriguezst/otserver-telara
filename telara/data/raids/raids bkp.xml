@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+
+	<!-- Montarias -->
+	
+<raid name="Draptor" file="Montarias/Draptor.xml" interval2="250" margin="60"/>
+<raid name="Crustacea Gigantica" file="Montarias/Crustacea1.xml" interval2="250" margin="60"/>
+<raid name="Crustacea Gigantica" file="Montarias/Crustacea2.xml" interval2="250" margin="60"/>
+<raid name="Crustacea Gigantica" file="Montarias/Crustacea3.xml" interval2="250" margin="60"/>
+<raid name="Midnight Panther" file="Montarias/Midnight Panther1.xml" interval2="250" margin="60"/>
+<raid name="Midnight Panther" file="Montarias/Midnight Panther2.xml" interval2="250" margin="60"/>
+<raid name="Midnight Panther" file="Montarias/Midnight Panther3.xml" interval2="250" margin="60"/>
+<raid name="Undead Cavebear" file="Montarias/Undead Cavebear1.xml" interval2="250" margin="60"/>
+<raid name="Undead Cavebear" file="Montarias/Undead Cavebear2.xml" interval2="250" margin="60"/>
+<raid name="Undead Cavebear" file="Montarias/Undead Cavebear3.xml" interval2="250" margin="60"/>
+<raid name="Horse" file="Montarias/Horse.xml" interval2="250" margin="60"/>
+
+
+		<!-- Bosses -->
+
+<!-- <raid name="Gazharagoth" file="Bosses/Gazharagoth.xml" interval2="1440" margin="180" />	 -->	
+<raid name="Horestis" file="Bosses/Horestis.xml" interval2="420" margin="70"/>
+<!-- <raid name="Yeti" file="Bosses/Yeti.xml" interval2="360" margin="60"/> -->	
+<!-- <raid name="Furyosa" file="Bosses/Furyosa.xml" interval2="1440" margin="60"/> -->
+<!--<raid name="Orshabaal" file="Bosses/Orshabaal.xml" interval2="1440" margin="60"/>
+<raid name="Morgaroth" file="Bosses/Morgaroth.xml" interval2="1440" margin="60"/>
+<raid name="Ghazbaran" file="Bosses/Ghazbaran.xml" interval2="1440" margin="60"/>
+<raid name="Zulazza the Corruptor" file="Bosses/Zulazza the Corruptor.xml" interval2="1440" margin="60"/> -->
+<raid name="The Welter" file="Bosses/The Welter.xml" interval2="1140" margin="60"/>
+<raid name="Demodras" file="Bosses/Demodras.xml" interval2="420" margin="70"/>
+<!-- <raid name="Ferumbras" file="Bosses/Ferumbras.xml" interval2="1440" margin="70"/> -->
+<raid name="The Horned Fox" file="Bosses/Horned.xml" interval2="420" margin="70"/>
+<raid name="Tiquandas Revenge" file="Bosses/Tiquandas.xml" interval2="420" margin="70"/>
+<raid name="Dracola" file="Bosses/Dracola.xml" interval2="350" margin="60"/>
+<raid name="Mr. Punish" file="Bosses/Mr Punish.xml" interval2="350" margin="60"/>
+<raid name="The Imperor" file="Bosses/The Imperor.xml" interval2="350" margin="60"/>
+<raid name="Countess Sorrow" file="Bosses/Countess Sorrow.xml" interval2="350" margin="60"/>
+<raid name="The Plasmother" file="Bosses/The Plasmother.xml" interval2="350" margin="60"/>
+<raid name="Massacre" file="Bosses/Massacre.xml" interval2="350" margin="60"/>
+<raid name="The Handmaiden" file="Bosses/The Handmaiden.xml" interval2="350" margin="60"/>
+<raid name="Necropharus" file="Bosses/Necropharus.xml" interval2="420" margin="70"/>
+<raid name="Necropharus" file="Bosses/Necropharus Lich.xml" interval2="420" margin="70"/>
+
+
+		<!-- Normal -->
+		
+<!-- <raid name="OrcWoods" file="Normal/OrcWoods.xml" interval2="520" margin="70"/>
+<raid name="Minotaur" file="Normal/Mino.xml" interval2="420" margin="60"/>
+<raid name="WarWolf" file="Normal/WarWolf.xml" interval2="250" margin="60"/>
+<raid name="RatsThais" file="Normal/RatsIntiri.xml" interval2="250" margin="60"/>
+<raid name="Undead Darashia" file="Normal/UndeadAldRuhn.xml" interval2="420" margin="70"/>
+<raid name="Elves" file="Normal/Elves.xml" interval2="250" margin="60"/>
+<raid name="Terror" file="Normal/TerrorBird.xml" interval2="250" margin="60"/>
+<raid name="Barbarian" file="Normal/Barbarian.xml" interval2="250" margin="60"/>
+<raid name="Scarab" file="Normal/Scarab.xml" interval2="250" margin="60"/>
+<raid name="Pirate" file="Normal/Pirate.xml" interval2="420" margin="70"/> -->
+</raids>

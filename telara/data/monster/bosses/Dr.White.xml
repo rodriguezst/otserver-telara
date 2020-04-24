@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!--
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="
+The most feared Doctor of white islands north of Carlin returned / (o doutor mais temido das ilhas brancas do norte de carlin voltou)" />
+ <singlespawn delay="1000" name="Ice Golem" amount="12" x="32145" y="31663" z="7" />
+ <singlespawn delay="1000" name="Ice Golem" amount="12" x="32145" y="31664" z="7" />
+ <singlespawn delay="1000" name="Ice Golem" amount="12" x="32145" y="31665" z="7" />
+ <singlespawn delay="1000" name="Ice Golem" amount="12" x="32145" y="31666" z="7" />
+ <singlespawn delay="1000" name="Ice Golem" amount="12" x="32145" y="31667" z="7" />
+ <singlespawn delay="1000" name="Ice Golem" amount="12" x="32145" y="31668" z="7" />
+ <singlespawn delay="1000" name="Ice Golem" amount="12" x="32145" y="31669" z="7" />
+ <singlespawn delay="1000" name="Ice Golem" amount="12" x="32145" y="31670" z="7" />
+ <singlespawn delay="1000" name="Ice Golem" amount="12" x="32145" y="31671" z="7" />
+
+ <singlespawn delay="1000" name="Frost Dragon" amount="12" x="32151" y="31654" z="7" />
+<singlespawn delay="1000" name="Frost Dragon" amount="12" x="32151" y="31655" z="7" />
+<singlespawn delay="1000" name="Frost Dragon" amount="12" x="32151" y="31656" z="7" />
+<singlespawn delay="1000" name="Frost Dragon" amount="12" x="32151" y="31657" z="7" />
+<singlespawn delay="1000" name="Frost Dragon" amount="12" x="32151" y="31658" z="7" />
+<singlespawn delay="1000" name="Frost Dragon" amount="12" x="32151" y="31659" z="7" />
+<singlespawn delay="1000" name="Frost Dragon" amount="12" x="32151" y="31660" z="7" />
+<singlespawn delay="1000" name="Frost Dragon" amount="12" x="32151" y="31661" z="7" />
+<singlespawn delay="1000" name="Frost Dragon" amount="12" x="32151" y="31662" z="7" />
+<singlespawn delay="1000" name="Frost Dragon" amount="12" x="32151" y="31663" z="7" />
+
+<singlespawn delay="1000" name="Frost Dragon" amount="12" x="32155" y="31644" z="7" />
+<singlespawn delay="1000" name="Cliff Strider" amount="12" x="32155" y="31645" z="7" />
+<singlespawn delay="1000" name="Cliff Strider" amount="12" x="32155" y="31646" z="7" />
+<singlespawn delay="1000" name="Cliff Strider" amount="12" x="32155" y="31647" z="7" />
+<singlespawn delay="1000" name="warlock" amount="12" x="32154" y="31645" z="7" />
+<singlespawn delay="1000" name="warlock" amount="12" x="32153" y="31646" z="7" />
+
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32157" y="31672" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32158" y="31672" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32159" y="31672" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32160" y="31672" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32161" y="31672" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32162" y="31672" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32163" y="31672" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32164" y="31672" z="7" />
+
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32157" y="31673" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32158" y="31673" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32159" y="31673" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32160" y="31673" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32161" y="31673" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32162" y="31673" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32163" y="31673" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32164" y="31673" z="7" />
+
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32157" y="31676" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32158" y="31676" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32159" y="31676" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32160" y="31676" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32161" y="31676" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32162" y="31676" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32163" y="31676" z="7" />
+<singlespawn delay="1000" name="crystal spider" amount="12" x="32164" y="31676" z="7" />
+
+<!--Area Spawns-->
+  <announce delay="30000" type="Event" message="Dr White and his minions have returned to the area on the white islands. They are totally taken by creatures that serve only to Dr White / (Dr.White e seus subordinados voltaram a ter o domínio sobre as ilhas brancas. Elas estão totalmente tomadas por criaturas que servem apenas ao Dr.White)" />
+
+<singlespawn delay="1000" name="frost dragon" amount="12" x="32155" y="31663" z="7" />
+<singlespawn delay="1000" name="frost dragon" amount="12" x="32156" y="31663" z="7" />
+<singlespawn delay="1000" name="frost dragon" amount="12" x="32157" y="31663" z="7" />
+<singlespawn delay="1000" name="frost dragon" amount="12" x="32158" y="31663" z="7" />
+<singlespawn delay="1000" name="frost dragon" amount="12" x="32159" y="31663" z="7" />
+<singlespawn delay="1000" name="frost dragon" amount="12" x="32160" y="31663" z="7" />
+<singlespawn delay="1000" name="frost dragon" amount="12" x="32161" y="31663" z="7" />
+<singlespawn delay="1000" name="frost dragon" amount="12" x="32162" y="31663" z="7" />
+
+  <announce delay="60000" type="Event" message="Dr. White returned on north islands of Carlin, in your old house. Your Castle / (Dr. White retornou nas ilhas ao norte de Carlin, na sua antiga casa. Seu castelo)" />
+
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32166" y="31633" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32167" y="31633" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32168" y="31633" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32169" y="31633" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32170" y="31633" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32171" y="31633" z="7" />
+
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32166" y="31634" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32167" y="31634" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32168" y="31634" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32169" y="31634" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32170" y="31634" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32171" y="31634" z="7" />
+
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32166" y="31635" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32167" y="31635" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32168" y="31635" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32169" y="31635" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32170" y="31635" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32171" y="31635" z="7" />
+
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32166" y="31636" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32167" y="31636" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32168" y="31636" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32169" y="31636" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32170" y="31636" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32171" y="31636" z="7" />
+
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32166" y="31637" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32167" y="31637" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32168" y="31637" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32169" y="31637" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32170" y="31637" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32171" y="31637" z="7" />
+
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32166" y="31638" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32167" y="31638" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32168" y="31638" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32169" y="31638" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32170" y="31638" z="7" />
+<singlespawn delay="1000" name="Rustheap Golem" amount="12" x="32171" y="31638" z="7" />
+
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32168" y="31654" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32169" y="31654" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32170" y="31654" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32171" y="31654" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32172" y="31654" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32173" y="31654" z="7" />
+
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32168" y="31653" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32169" y="31653" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32170" y="31653" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32171" y="31653" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32172" y="31653" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32173" y="31653" z="7" />
+
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32168" y="31652" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32169" y="31652" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32170" y="31652" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32171" y="31652" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32172" y="31652" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32173" y="31652" z="7" />
+
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32168" y="31651" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32169" y="31651" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32170" y="31651" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32171" y="31651" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32172" y="31651" z="7" />
+<singlespawn delay="1000" name="Nightmare" amount="12" x="32173" y="31651" z="7" />
+
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32179" y="31643" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32180" y="31643" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32181" y="31643" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32182" y="31643" z="7" />
+
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32179" y="31644" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32180" y="31644" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32181" y="31644" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32182" y="31644" z="7" />
+
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32179" y="31645" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32180" y="31645" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32181" y="31645" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32182" y="31645" z="7" />
+
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32179" y="31646" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32180" y="31646" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32181" y="31646" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32182" y="31646" z="7" />
+
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32179" y="31647" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32180" y="31647" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32181" y="31647" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32182" y="31647" z="7" />
+
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32179" y="31648" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32180" y="31648" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32181" y="31648" z="7" />
+<singlespawn delay="1000" name="Behemoth" amount="12" x="32182" y="31648" z="7" />
+
+ <announce delay="90000" type="Event" message="COME HERE KIDS! I HAVE CANDY TO ALL!" />
+  <!--Single Spawns-->
+
+  <singlespawn delay="90000" name="Dr.White" x="32188" y="31633" z="7" />
+<!--Area Spawns-->
+  
+</raid>

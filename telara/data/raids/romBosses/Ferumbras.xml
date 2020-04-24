@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<announce delay="1000" type="Event" message="The seals on Ferumbras old cidatel are glowing. Prepare for HIS return mortals." />
+<announce delay="60000" type="Event" message="Ferumbras return is at hand. The Verona Academy calls for Heroes to fight that evil." />
+<announce delay="300000" type="Event" message="Ferumbras has returned to his citadel once more. Stop him before its too late." />
+
+<singlespawn delay="300000" name="Ferumbras" x="712" y="1312" z="7" />
+  <areaspawn delay="260000" fromx="705" fromy="1306" fromz="4" tox="719" toy="1320" toz="7">
+    <monster name="Demon" amount="2" />
+  </areaspawn>
+</raid>

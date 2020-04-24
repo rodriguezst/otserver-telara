@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Urkalio" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="128" head="97" body="59" legs="120" feet="114" addons="0" />
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I am selling food, just ask me for {trade} to see my offerts!"/>
+		<parameter key="shop_buyable" value="brown bread,2691,4;ham,2671,15;carrot,2684,4;meat,2666,7;brown mushroom,2789,20;egg,2695,2;mug of lemonade,2012,2,5"/>
+	</parameters>
+</npc>

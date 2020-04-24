@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Demonic Skeleton" script="Demonic Skeleton.lua" walkinterval="3000" floorchange="0">
+	<health now="10" max="100" />
+	<look type="37" corpse="5963"/>
+</npc>

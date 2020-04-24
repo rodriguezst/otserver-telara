@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Boozer" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150" />
+	<look type="131" head="76" body="20" legs="116" feet="1" addons="1" />
+	<parameters>
+		<parameter key="message_greet" value="Welcome to vials store., |PLAYERNAME|" />
+		<parameter key="message_farewell" value="You'll be back." />
+		<parameter key="message_walkaway" value="You'll be back." />
+		<parameter key="message_onsendtrade" value="Sure, take what you want." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			vial of blood,2006,15,2;
+			fire bug,5468,500,1;
+			vial of oil,2006,20,11;
+			vial of slime,2006,12,4;
+			vial of urine,2006,10,13;
+			vial of water,2006,8,1;" />
+		<parameter key="shop_sellable" value="
+			vial,2006,5;" />
+	</parameters>
+</npc>

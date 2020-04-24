@@ -1,0 +1,8 @@
+------------------------------
+Reported by: Pedrin
+Target: Tekko
+Type: 1
+Reason: 10
+Comment: Feio né
+Translation: 
+------------------------------

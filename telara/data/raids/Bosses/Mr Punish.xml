@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Mr. Punish" x="1844" y="376" z="15" />
+  <singlespawn delay="1000" name="Dark Torturer" x="1845" y="374" z="15" />
+</raid>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<announce delay="1000" type="Event" message="Minotaur activity has been spotted west of Ascal!" />
+	<areaspawn delay="20000" fromx="841" fromy="451" fromz="7" tox="865" toy="392" toz="7">
+		<monster name="Minotaur" amount="50" />
+	</areaspawn>
+<announce delay="50000" type="Event" message="Minotaurs are moving towards the gate!" />
+	<areaspawn delay="60000" fromx="841" fromy="451" fromz="7" tox="865" toy="392" toz="7">
+		<monster name="Minotaur" amount="50" />
+		<monster name="Minotaur Guard" amount="50" />
+	</areaspawn>
+<announce delay="150000" type="Event" message="Minotaur reinforcements have been spotted!" />
+	<areaspawn delay="160000" fromx="841" fromy="451" fromz="7" tox="865" toy="392" toz="7">
+		<monster name="Minotaur" amount="50" />
+		<monster name="Minotaur Guard" amount="50" />
+		<monster name="Minotaur Archer" amount="50" />
+		<monster name="Minotaur Mage" amount="50" />
+	</areaspawn>
+<announce delay="300000" type="Event" message="They are trying to escape stop them!" />
+</raid>

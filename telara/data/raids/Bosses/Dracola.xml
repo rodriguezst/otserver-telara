@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Dracola" x="1931" y="405" z="15" />
+  <singlespawn delay="1000" name="Undead Dragon" x="1929" y="405" z="15" />
+</raid>

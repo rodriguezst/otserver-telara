@@ -1,0 +1,6 @@
+FROM webdevops/php-nginx:alpine-php7
+
+WORKDIR /tmp
+COPY ./download-myaac.sh ./
+RUN ./download-myaac.sh && \
+    chown -R application:application ./www

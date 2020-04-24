@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bezil" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="160" head="116" body="60" legs="76" feet="95" />
+<voices>
+<voice text="General equipment and all sorts of goods. Visit my store!" interval2="120" margin="1" yell="no" />
+</voices>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I am selling basic tools. I can also sell You rust remover. Say {trade} to see my offers!"/>
+		<parameter key="shop_buyable" value="backpack,1988,20;blue backpack,2002,20;red backpack,2000,20;grey backpack,2003,20;yellow backpack,1999,20;golden backpack,2004,20;green backpack,1998,20;purple backpack,2001,20;camouflage backpack,3940,20;brocade backpack,9774,25;beach backpack,5949,20;fur backpack,7342,20;bag,1987,10;blue bag,1995,10;red bag,1993,10;grey bag,1996,10;yellow bag,1992,10;golden bag,1997,10;green bag,1991,10;purple bag,1994,10;camouflage bag,3939,10;brocade bag,9775,10;beach bag,5950,10;fur bag,7343,10;present,2331,10;rust remover,9930,70;pick,2553,50;rope,2120,50;scythe,2550,50;shovel,2554,50;machete,2420,35;fishing rod,2580,150;worm,3976,2"/>
+		 <parameter key="shop_sellable" value="rope,2120,8" />
+	</parameters>
+</npc>

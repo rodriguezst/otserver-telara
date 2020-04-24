@@ -1,0 +1,12 @@
+------------------------------
+Name: Lesny [Map position: 522, 602, 6] [Player Position: 522, 602, 6]
+Comment: buggy 1 sqm there
+------------------------------
+Name: Lesny [Map position: 1399, 890, 7] [Player Position: 1399, 890, 7]
+Comment: part of earth on sand
+------------------------------
+Name: Lesny [Map position: 1396, 905, 7] [Player Position: 1396, 905, 7]
+Comment: thats not looks good 
+------------------------------
+Name: Lesny [Map position: 497, 1238, 7] [Player Position: 497, 1238, 7]
+Comment: sand

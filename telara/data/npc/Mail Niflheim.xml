@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nelly" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="138" head="59" body="5" legs="4" feet="19" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, What can I do for you? I'm working for the post office." />
+		<parameter key="message_farewell" value="It was a pleasure to help you, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="Good bye." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="parcel,2595,15;label,2599,1;letter,2597,8;"/>
+	</parameters>
+</npc>

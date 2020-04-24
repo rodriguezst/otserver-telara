@@ -1,0 +1,6 @@
+------------------------------
+Name: Wenlok [Map position: 687, 1433, 9] [Player Position: 687, 1433, 9]
+Comment: map
+------------------------------
+Name: Wenlok [Player Position: 1483, 1329, 9]
+Comment: I collect 50 nails and nothing! Dwarven Legs quest dosen't work.. :(

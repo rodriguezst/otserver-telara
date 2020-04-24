@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Sobkowiak" nameDescription="a sobkowiak" race="undead" experience="900500" speed="500" manacost="0">
+    <health now="300100" max="300100"/>
+    <look type="149" head="79" body="114" legs="114" feet="115" addons="3" corpse="3058"/>
+    <targetchange interval="5000" chance="10"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="90"/>
+        <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" skill="150" attack="155"/>
+        <attack name="death" interval="1500" chance="19" range="7" min="-650" max="-1850">
+            <attribute key="shootEffect" value="suddendeath"/>
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+        <attack name="physical" interval="2900" chance="25" length="7" spread="0" min="-1170" max="-3500">
+            <attribute key="areaEffect" value="blackspark"/>
+        </attack>
+		<attack name="energy" interval="2000" chance="17" target="0" length="6" spread="3" min="-796" max="-2500">
+			<attribute key="areaEffect" value="bigclouds" />
+		</attack>
+		<attack name="speed" interval="1500" chance="12" radius="6" target="0" speedchange="-350" duration="30000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+        <attack name="death" interval="2000" chance="20" target="1" radius="4" min="-490" max="-1350">
+            <attribute key="areaEffect" value="GROUNDSHAKER"/>
+        </attack>
+		<attack name="manadrain" interval="3500" chance="5" radius="7" target="0" min="-0" max="-7000">
+            	<attribute key="areaEffect" value="smallclouds"/>
+		</attack>
+        <attack name="fire" interval="1800" chance="15" range="7" radius="4" target="1" min="-805" max="-1695">
+            <attribute key="shootEffect" value="fire"/>
+            <attribute key="areaEffect" value="firearea"/>
+        </attack>
+        <attack name="energy" interval="2000" chance="22" radius="9" target="1" min="-355" max="-855">
+            <attribute key="areaEffect" value="yellowspark"/>
+        </attack>
+    </attacks>
+    <defenses armor="50" defense="50">
+        <defense name="healing" interval="2000" chance="12" min="790" max="1595">
+            <attribute key="areaEffect" value="blueshimmer"/>
+        </defense>
+		<defense name="speed" interval="2000" chance="8" speedchange="680" duration="6000">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+    </defenses>
+    <elements>
+        <element energyPercent="10"/>
+        <element earthPercent="10"/>
+        <element icePercent="10"/>
+        <element holyPercent="10"/>
+        <element deathPercent="15"/>
+        <element firePercent="10"/>
+    </elements>
+    <immunities>
+        <immunity paralyze="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+    <voices interval="5000" chance="10">
+        <voice sentence="THE BATTLE UNDER SUCHE KRUPY!!" yell="1"/>
+        <voice sentence="TRAKTAT IN BUCHACHU, HABACHU, MUCHACHU!" yell="1"/>
+        <voice sentence="ASHURBANIPAL! NABUHODONOSOR!" yell="1"/>
+    </voices>
+	<script>
+<event name="Sobkowiak"/>
+</script>
+    	<loot>
+		<item id="2148" countmax="253" chance="100000" />	<!-- gold coin -->
+		<item id="2152" countmax="45" chance="100000" />		<!-- platinum coin -->
+		<item id="2152" countmax="27" chance="97000" />		<!-- platinum coin -->
+		<item id="9971" countmax="20" chance="60000" />
+	<!-- gold ingot -->
+		<item id="7590" countmax="17" chance="27000" />		<!-- great mana potion -->
+		<item id="8472" countmax="15" chance="76000" />		<!-- great spirit potion -->
+		<item id="8473" countmax="11" chance="22000" />		<!-- ultimate health potion -->
+		<item id="2173" chance="11000" />						<!-- amulet of loss -->
+		<item id="2451" chance="8900" />						<!-- djinn blade -->
+		<item id="2446" chance="7500" />						<!-- pharao sword -->
+		<item id="7423" chance="6000" />						<!-- skullcrusher -->
+		<item id="2447" chance="5550" />						<!-- twin axe -->
+		<item id="2539" chance="6700" />						<!-- phoenix shield -->
+		<item id="5944" countmax="19" chance="27000" />		<!-- soul orb -->
+		<item id="2151" countmax="10" chance="9000" />		<!-- talon -->
+		<item id="5909" countmax="8" chance="8000" />		<!-- white piece of cloth -->
+		<item id="5914" countmax="8" chance="9000" />		<!-- yellow piece of cloth -->
+		<item id="5913" countmax="5" chance="8000" />		<!-- brown piece of cloth -->			
+		<item id="21725" chance="4200" />						<!-- furious frock -->
+		<item id="8852" chance="3150" />						<!-- the devileye -->
+		<item id="2443" chance="6000" />						<!-- ravagers axe -->
+		<item id="8904" chance="8200" />						<!-- spellscroll of prophecies -->
+		<item id="2474" chance="1150" />						<!-- winged helmet -->
+		<item id="2390" chance="920" />						<!-- magic longsword -->
+		<item id="2646" chance="5300" />						<!-- golden boots -->
+	</loot>
+</monster>

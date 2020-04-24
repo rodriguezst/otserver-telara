@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raid>
+	<singlespawn delay="10100" name="Demodras" x="1171" y="294" z="12"/>
+	<singlespawn delay="10000" name="Dragon" x="1769" y="295" z="12" />
+	<singlespawn delay="10000" name="Dragon" x="1773" y="293" z="12" />
+</raid>

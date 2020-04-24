@@ -1,0 +1,64 @@
+version: "3.3"
+
+services:
+  otserver:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile.server
+    ports:
+      - "7171:7171"
+      - "7172:7172"
+    volumes:
+      - ./telara/config.lua:/opt/otserver/config.lua
+      #- ./telara/data/:/opt/otserver/data/
+    depends_on:
+      - otdb
+      #- otweb
+      #- otlogin
+
+  otdb:
+    container_name: otdb
+    build: 
+      context: ./telara-db/
+      dockerfile: ../Dockerfile.database
+    restart: unless-stopped
+    environment:
+      - MYSQL_DATABASE=otserver
+      - MYSQL_USER=otserver
+      - MYSQL_PASSWORD=otserver
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-volume:/var/lib/mysql
+  
+  otweb:
+    build: 
+      context: ./web/
+      dockerfile: ../Dockerfile.web
+    restart: unless-stopped
+    environment:
+      - WEB_DOCUMENT_ROOT=/tmp/www/
+      - WEB_DOCUMENT_INDEX=index.php
+    ports:
+      - "80:80"
+    volumes:
+      - ./telara/:/tmp/otserver/
+      - ./web/ip.txt:/tmp/www/install/ip.txt
+    depends_on:
+      - otdb
+
+  otlogin:
+    build: 
+      context: ./login/
+      dockerfile: ../Dockerfile.login
+    restart: unless-stopped
+    volumes:
+      - ./:/tmp/
+    ports:
+      - "8080:80"
+    depends_on:
+      - otdb
+
+volumes:
+  db-volume:

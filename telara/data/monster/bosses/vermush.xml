@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Vermush" nameDescription="Vermush" race="venom" experience="30000" speed="780" manacost="0">
+	<health now="120000" max="120000"/>
+	<look type="12" head="2" body="121" legs="128" feet="128" corpse="6068"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="165" attack="155"/>
+		<attack name="death" interval="1000" chance="11" length="8" spread="0" min="300" max="-800">
+			<attribute key="areaEffect" value="PLANTATTACK"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="15" target="0" radius="4" min="-400" max="-800">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="fire" interval="3000" chance="18" radius="5" target="1" min="-940" max="-2655">
+			<attribute key="areaEffect" value="PLANTATTACK"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="15" radius="6" target="1" min="-540" max="-900">
+			<attribute key="areaEffect" value="bigplants"/>
+			<attribute key="shootEffect" value="earth"/>
+		</attack>
+	</attacks>
+	<defenses armor="48" defense="46"/>
+	<elements>
+		<element icePercent="15"/>
+		<element deathPercent="10"/>
+	</elements>
+	<immunities>
+		<immunity energy="1"/>
+		<immunity fire="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+<script>
+<event name="Vermush"/>
+</script>
+</monster>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Buddel" script="Buddel Svalbard.lua" walkinterval="1500" floorchange="0">
+	<health now="150" max="150"/>	
+<look type="143" head="95" body="116" legs="116" feet="95"/>
+    <parameters>
+    </parameters>
+</npc>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<!-- Bosses Quests -->
+
+
+	<!-- Custom -->
+	<globalevent name="text" interval="3000" script="custom/text.lua"/> 
+	
+	<!-- Others --> 
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="ServerSave" time="05:55:00" script="serversave.lua" />	
+	<globalevent name="autoBroadcast" interval="600000" script="autobroadcast.lua"/>
+
+	
+	<!-- Gray Island Bosses -->
+	<globalevent type="startup" name="TanjisSpawn" script="spawn/tanjis.lua"/>
+	<globalevent type="startup" name="ObujosSpawn" script="spawn/obujos.lua"/>
+	<globalevent type="startup" name="JaulSpawn" script="spawn/jaul.lua"/>
+
+	<globalevent type="startup" name="doCheckHouses" script="others/doCheckHouses.lua" />
+	<globalevent name="RentedMounts" interval="15000" script="others/checkMount.lua" />
+	<globalevent name="checkInbox" interval="30000" script="others/checkInbox.lua"/>
+	<globalevent interval="1800000" name="AutoSave" script="autosave.lua"/>
+</globalevents>

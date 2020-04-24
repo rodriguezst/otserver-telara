@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sven" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="143" head="76" body="57" legs="115" feet="40" addons="3" />
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="wine,2006,10,15;meat,2666,5;cheese,2696,5;ham,2671,8;bread,2689,3;cookie,2687,2;brown mushroom,2789,25;mug of beer,2012,2,3;mug of winer,2012,3,15;" />
+	</parameters>
+</npc>

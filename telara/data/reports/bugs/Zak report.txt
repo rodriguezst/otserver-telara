@@ -1,0 +1,9 @@
+------------------------------
+Name: Zak [Map position: 226, 1250, 6] [Player Position: 226, 1250, 6]
+Comment: nao é pz
+------------------------------
+Name: Zak [Map position: 1317, 1312, 7] [Player Position: 1317, 1311, 7]
+Comment: bugggggg
+------------------------------
+Name: Zak [Map position: 1118, 800, 8] [Player Position: 1118, 800, 8]
+Comment: BUG

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+    
+    <!-- New Summons (Pets) -->	
+    <event type="login" name="petlogin" script="pet.lua" />
+    <event type="think" name="petthink" script="pet.lua" />
+	<event type="death" name="petdeath" script="pet.lua" />
+	
+    <!-- Anti-Entrosa -->
+    <event type="login" name="WarPrivateLogin" script="warPrivate_creaturescript.lua"/>
+    <event type="logout" name="WarPrivateLogout" script="warPrivate_creaturescript.lua"/>
+    <event type="death" name="WarPrivateDeath" script="warPrivate_creaturescript.lua"/>
+	<event type="modalwindow" name="ModalWindowHelper" script="modalwindowhelper.lua" />  
+
+	<!-- Custom -->
+	<event type="kill" name="tasksystem" script="quests/task/killtasksystem.lua"/>
+
+
+	<event type="modalwindow" name="modalwindowhelper" script="tutor.lua"/>
+    <event type="login" name="Anti-Multiclient" script="antimc.lua"/>
+	<event type="ModalWindow" name="janelaHunts" script="creature_janela_hunts.lua"/>
+
+	<!-- Reward Token System -->
+	<event type="advance" name="lvlReward" script="rewardSystem/rewardToken.lua" />
+	<event type="death" name="drop_tokens" script="rewardSystem/dropTokens.lua"/>
+	
+	<!-- Reward Online TIME 
+	<event type="login" name="itemLogin" script="rewardSystem/rewardTime.lua" />
+	<event type="logout" name="itemLogout" script="rewardSystem/rewardTime.lua"/>
+	
+	<!-- Custom Boss -->
+	<event type="death" name="Shang" script="CustomBoss/Shang.lua"/>
+	<event type="death" name="Ortheus" script="CustomBoss/Ortheus.lua"/>
+	<event type="death" name="Sobkowiak" script="CustomBoss/Sobkowiak.lua"/>
+	<event type="death" name="Vermush" script="CustomBoss/Vermush.lua"/>
+	<event type="death" name="Deathstrike" script="CustomBoss/Deathstrike.lua"/>
+	<event type="death" name="Gnomevil" script="CustomBoss/Gnomevil.lua"/>
+	<event type="death" name="Abyssador" script="CustomBoss/Abyssador.lua"/>
+
+  
+    <!-- Reward Chest 19/01 -->	
+ 	<event type="death" name="BossDeath" script="rewardChest/boss.lua" />
+ 	<event type="healthchange" name="BossParticipation" script="rewardChest/boss.lua" />
+ 	<event type="think" name="BossThink" script="rewardChest/boss.lua" />
+	<event type="healthchange" name="HealGaz" script="gaz'haragoth heal.lua"/>	
+	
+	<!-- Recompense by level -->
+	<event type="advance" name="RewardMount" script="rewardSystem/RewardMount.lua"/>
+	<event type="advance" name="Recompensa" script="rewardSystem/recompensa.lua"/>
+	<event type="advance" name="Recompensavoc" script="rewardSystem/Recompensavoc.lua"/>
+	<event type="advance" name="Recompense" script="rewardSystem/recompense.lua"/>
+	
+	<!-- Svargrond Arena: Killing a boss -->
+	<event type="kill" name="SvargrondArenaKill" script="quests/svargrond arena/arena_kill.lua" />
+
+	<!-- Inquisition Quest -->
+	<event type="kill" name="InquisitionBosses" script="quests/inquisition/inquisitionQuestBosses.lua" />
+	<event type="kill" name="InquisitionUngreez" script="quests/inquisition/inquisitionQuestUngreez.lua" />
+
+	<!-- Killing In The Name Of Quest -->
+	<event type="kill" name="KillingInTheNameOfKills" script="quests/killing in the name of/kills.lua" />
+
+	<!-- Others -->
+	<!--<event type="think" name="Idle" script="idle.lua" />-->
+	<event type="login" name="AdventurerBlessings" script="adventurerBlessings.lua"/>
+	<event type="healthchange" name="ImpactAnalyzer" script="others/impact_analyzer.lua" />
+	<event type="login" name="PlayerLogin" script="others/login.lua" />
+	<event type="login" name="AntiMc" script="others/antimc.lua" />
+	<event type="login" name="FirstItems" script="others/firstitems.lua" />
+	<event type="login" name="RegenerateStamina" script="others/regeneratestamina.lua" />
+	<event type="login" name="OfflineTraining" script="others/offlinetraining.lua" />
+	<event type="logout" name="PlayerLogout" script="others/logout.lua" />
+	<event type="death" name="PlayerDeath" script="others/playerdeath.lua" />
+	<event type="death" name="DropLoot" script="others/droploot.lua" />
+	<event type="advance" name="AdvanceSave" script="others/advance_save.lua" />
+	<event type="death" name="WhiteDeerDeath" script="others/whitedeer.lua" />
+	<event type="death" name="WhiteDeerScoutsDeath" script="others/whitedeer_scouts.lua" />
+</creaturescripts>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Asazor" nameDescription="asazor" race="blood" experience="6020000" speed="740" manacost="0">
+    <health now="1000000" max="1000000"/>
+	<look type="230" corpse="6312"/>
+    <targetchange interval="2000" chance="100"/>
+    <strategy attack="100" defense="10"/>
+    <flags>
+        <flag summonable="0"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="0"/>
+        <flag convinceable="0"/>
+        <flag pushable="0"/>
+        <flag canpushitems="1"/>
+        <flag canpushcreatures="1"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="85"/>
+        <flag runonhealth="10000"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="1700" skill="155" attack="155"/>
+        <attack name="death" interval="900" chance="11" length="8" spread="0" min="500" max="-800">
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+        <attack name="fire" interval="1300" chance="25" target="1" radius="9" min="-290" max="-800">
+            <attribute key="areaEffect" value="POFF"/>
+        </attack>
+        <attack name="death" interval="1800" chance="25" target="1" radius="9" min="-390" max="-800">
+            <attribute key="areaEffect" value="GROUNDSHAKER"/>
+        </attack>
+        <attack name="death" interval="2100" chance="20" target="1" radius="9" min="-190" max="-800">
+            <attribute key="areaEffect" value="SMALLCLOUDS"/>
+        </attack>
+        <attack name="fire" interval="1200" chance="20" target="1" radius="9" min="-90" max="-800">
+            <attribute key="areaEffect" value="mortarea"/>
+        </attack>
+        <attack name="death" interval="2900" chance="30" radius="9" target="1" min="-200" max="-755">
+            <attribute key="areaEffect" value="STUN"/>
+        </attack>
+        <attack name="fire" interval="2000" chance="25" radius="9" target="1" min="-340" max="-600">
+            <attribute key="areaEffect" value="fireattack"/>
+            <attribute key="shootEffect" value="fire"/>
+        </attack>
+    </attacks>
+    <defenses armor="98" defense="66">
+        <defense name="healing" interval="1000" chance="25" min="700" max="1095">
+            <attribute key="areaEffect" value="GROUNDSHAKER"/>
+        </defense>
+    </defenses>
+    <elements>
+        <element icePercent="15"/>
+        <element deathPercent="10"/>
+    </elements>
+    <immunities>
+        <immunity energy="1"/>
+        <immunity fire="1"/>
+        <immunity invisible="1"/>
+    </immunities>
+    <voices interval="3000" chance="6">
+        <voice sentence="BONES, BONES IS ALL WHAT YOU WILL TURN INTO!" yell="1"/>
+        <voice sentence="HOW DARE YOU HARASSING ME?!" yell="1"/>
+        <voice sentence="ZAAAAAAAAAAHHH." yell="1"/>
+    </voices>
+    <loot>
+        <item id="2148" chance="40000" countmax="98"/>
+        <item id="2160" chance="40000" countmax="15"/>
+        <item id="2152" chance="40000" countmax="23"/>
+        <item id="2152" chance="20000" countmax="54"/>
+        <item id="2645" chance="14000"/>
+        <item id="2436" chance="30000"/>
+        <item id="6500" chance="7500" countmax="40"/>
+        <item id="2470" chance="7000"/>
+        <item id="8865" chance="1000"/>
+        <item id="2195" chance="14000"/>
+        <item id="2520" chance="9000"/>
+        <item id="2498" chance="9000"/>
+        <item id="2466" chance="9000"/>
+        <item id="2492" chance="9000"/>
+        <item id="2472" chance="9000"/>
+        <item id="2514" chance="13000"/>
+        <item id="2151" chance="30000" countmax="7"/>
+        <item id="6300" chance="7500"/>
+        <item id="2534" chance="11000"/>
+        <item id="1987" chance="100000">
+            <inside>
+                <item id="8821" chance="7331"/>
+                <item id="2488" chance="7331"/>
+                <item id="8889" chance="4500"/>
+                <item id="6391" chance="1200"/>
+                <item id="5741" chance="16333"/>
+                <item id="2520" chance="9000"/>
+                <item id="2470" chance="9000"/>
+                <item id="7391" chance="3000"/>
+                <item id="7417" chance="700"/>
+                <item id="7422" chance="600"/>
+                <item id="2488" chance="9000"/>
+                <item id="2646" chance="300"/>
+                <item id="2474" chance="300"/>
+                <item id="2451" chance="800"/>
+                <item id="8821" chance="900"/>
+                <item id="2496" chance="300"/>
+                <item id="2158" chance="10000"/>
+                <item id="2145" chance="20000" countmax="13"/>
+                <item id="2150" chance="20000" countmax="19"/>
+                <item id="8927" chance="300"/>
+            </inside>
+        </item>
+    </loot>
+</monster>

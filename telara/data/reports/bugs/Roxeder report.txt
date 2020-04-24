@@ -1,0 +1,15 @@
+------------------------------
+Name: Roxeder [Map position: 817, 1686, 7] [Player Position: 816, 1686, 7]
+Comment: esta bugado
+------------------------------
+Name: Roxeder [Map position: 1158, 1615, 7] [Player Position: 1158, 1616, 7]
+Comment: tele esta bugado
+------------------------------
+Name: Roxeder [Map position: 873, 1355, 7] [Player Position: 874, 1355, 7]
+Comment: esta bugado
+------------------------------
+Name: Roxeder [Map position: 876, 1358, 7] [Player Position: 876, 1357, 7]
+Comment: esta buagdo portal
+------------------------------
+Name: Roxeder [Map position: 873, 1345, 7] [Player Position: 874, 1345, 7]
+Comment: portal esta bugado

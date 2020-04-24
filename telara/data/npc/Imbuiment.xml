@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Romir" script="default.lua" walkinterval="2000">
+	<health now="100" max="100" />
+	<look type="153" head="19" body="48" legs="67" feet="126" addons="3" />
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Im selling a lot of potions but also buy a vial ask me for a {trade}." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			Swamp Grass,10603,10000;
+			Fiery Hearts,10553,10000;
+			Frosty Hearts,10578,10000;
+			Rorc Feathers,21310,10000;
+			Pile of Grave Earth,12440,10000;
+			Vampire Teeth,10602,10000;
+			Rope Belts,12448,10000;
+			Protective Charms,12400,10000;
+			Flasks of Embalming Fluid,12422,10000;
+			Pieces of Swampling Wood,20103,10000;
+			Green Dragon Leathers,5877,10000;
+			Winter Wolf Furs,11212,10000;
+			Wyvern Talismans,10561,10000;
+			Cultish Robes,10556,10000;
+			Damselfly Wings,19738,10000;
+			Orc Tooths,11113,10000;
+			Lion's Manes,23759,10000;
+			Cyclops Toes,10574,10000;
+			Elven Scouting Glasses,12420,10000;
+			Pieces of Scarab Shell,10558,10000;
+			Elvish Talismans,10552,10000;
+			Fairy Wings,28999,10000;
+			Poisonous Slimes,10557,10000;
+			Seacrest Hairs,24170,10000;
+			Peacock Feather Fans,24631,10000;
+			Demonic Skeletal Hands,10564,10000;
+			Bloody Pincers,10550,10000;
+			Silencer Claws,22534,10000;
+			Sabretooth,11228,10000;
+			Gloom Wolf Furs,24663,10000;
+			Snake Skins,10611,10000;
+			Blazing Bones,5877,10000;
+			Thick Furs,11224,10000;
+			Crawler Head Platings,15482,10000;
+			Battle Stones,12403,10000;
+			Cyclops Toes,23573,10000;
+			Ogre Nose Rings,24845,10000;
+			Elven Hoofs,21311,10000;
+			Elvish Talismans,12659,10000;
+			Broken Shamanic Staffs,12408,10000;
+			Little Bowl of Myrrhs,29007,10000;
+			Demon Horns,5954,10000;
+			Slime Hearts,23565,10000;
+			Polar Bear Paws,10567,10000;
+			Energy Vein,26164,10000;
+			Petrified Screams,11337,10000;
+			Piece of Dead Brain,10580,10000;
+			Some Grimeleech Wings,25386,10000;
+			Vexclaw Talons,25384,10000;
+			Mystical Hourglasses,10577,10000;
+			Blazing Bones,18425,10000;
+			Draken Sulphurs,12614,10000;
+			Deepling Warts,15425,10000;
+			Wyrm Scales,10582,10000;
+			Cultish Masks,10555,10000;
+			Hellspawn Tails,11221,10000;
+			Compasses,11219,10000;
+			Waspoid Wings,15484,10000;
+			Moohtant Horns,23571,10000;
+			Mooh'tah Shells,23573,10000;
+			War Crystals,10571,10000;
+			Warmaster's Wristguards,11322,10000;
+			Metal Spikes,11215,10000;
+			Brimstone Shells,12659,10000;
+			Frazzle Skins,22533,10000;
+			Strands of Medusa Hair,11226,10000;
+			Goosebump Leather,22539,10000;" />
+	</parameters>
+</npc>

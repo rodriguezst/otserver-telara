@@ -1,0 +1,15 @@
+------------------------------
+Name: CM Yinz [Map position: 1561, 1080, 5] [Player Position: 1559, 1079, 5]
+Comment: bug de pz
+------------------------------
+Name: CM Yinz [Map position: 1173, 1349, 7] [Player Position: 1171, 1348, 7]
+Comment: bug de escada
+------------------------------
+Name: CM Yinz [Map position: 1208, 1066, 7] [Player Position: 1207, 1066, 7]
+Comment: sem parte de cima
+------------------------------
+Name: CM Yinz [Map position: 1333, 1618, 9] [Player Position: 1333, 1619, 9]
+Comment: quest bugada
+------------------------------
+Name: CM Yinz [Map position: 489, 1521, 8] [Player Position: 488, 1520, 8]
+Comment: por agua

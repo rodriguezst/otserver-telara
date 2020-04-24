@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<monster name="Devovorga" nameDescription="Devovorga" race="venom" experience="700000" speed="350" manacost="0">
+	<health now="500000" max="500000" />
+	<look type="354" corpse="21364"/>
+	<targetchange interval="2000" chance="7" />
+	<strategy attack="100" defense="20" />
+	<flags>
+	                <flag rewardchest="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1200" min="-0" max="-4100"/>
+		<attack name="lifedrain" interval="2000" chance="7" length="8" spread="0" min="-0" max="-1510">
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="15" radius="6" target="0" min="-0" max="-450">
+			<attribute key="areaEffect" value="bigplants"/>
+		</attack>
+		<attack name="poisoncondition" interval="3000" chance="28" radius="7" target="0" max="-950">
+			<attribute key="areaEffect" value="carniphila"/>
+		</attack>
+		<attack name="cursecondition" interval="4000" chance="35" radius="7" target="0" max="-1200">
+			<attribute key="areaEffect" value="smallclouds"/>
+		</attack>
+	</attacks>
+	<defenses armor="40" defense="39">
+		<defense name="healing" interval="3000" chance="20" min="2000" max="3000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="3000" chance="10">
+		<voice sentence="Slurp!"/>
+		<voice sentence="See how weak you are?"/>
+		<voice sentence="I tried to save you, but there's no use."/>
+		<voice sentence="My soul, power, hatred, knowledge and fury are far away."/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="30" chance="41325" /><!-- platinum coin -->
+		<item id="2148" countmax="100" chance="49650" /><!-- gold coin -->
+		<item id="9971" countmax="4" chance="33000" /><!-- gold ingot -->
+		<item id="2158" chance="30500" /><!-- blue gem -->
+		<item id="2155" chance="20500" /><!-- green gem -->
+		<item id="2154" chance="15500" /><!-- yellow gem -->
+		<item id="2156" chance="10500" /><!-- red gem -->
+		<item id="2153" chance="25500" /><!-- violet gem -->
+		<item id="8882" chance="5500" /><!-- earthborn titan armor -->
+		<item id="13030" chance="3500" /><!-- Draken Doll -->
+		<item id="16108" chance="8500" /><!-- Durin -->
+		<item id="13948" chance="5500" /><!-- Imortus -->
+		<item id="16103" chance="2500" /><!-- Majestic -->
+		<item id="23816" chance="10000" /><!-- War Backpack -->
+		<item id="8821" chance="1500" /><!-- Coat -->
+										
+		<item id="2514" chance="5500" /><!-- mastermind shield -->
+	</loot>
+</monster>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Jefrey" script="Bank.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="132" head="95" body="63" legs="38" feet="82" addons="2" />
+	<voices>
+<voice text="If you need help with letters or parcels, just ask me. I can explain everything." interval2="100" margin="1" yell="no" />
+<voice text="Stay in touch with your friends. Send a letter, let them know you care and such!" interval2="120" margin="1" yell="no" />
+<voice text="Welcome to the post office!" interval2="90" margin="1" yell="no" />
+<voice text="No, no, no, there IS no parcel bug, I'm telling you!" interval2="120" margin="1" yell="no" />
+</voices>
+	<parameters>
+		<parameter key="message_greet" value="How may I help you |PLAYERNAME|? Ask me for a {trade} if you want to buy something. I can also explain the mail system." />
+		<parameter key="message_farewell" value="I hope to see you back soon, |PLAYERNAME|." />
+		<parameter key="message_walkaway" value="I hope to see you back soon." />
+		<parameter key="message_sendtrade" value="Here. Don't forget that you need to buy a label too if you want to send a parcel. Always write the name of the {receiver} in the first line and the name of the {city} in the second line." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="
+			black pearl,2144,280;
+			green giant shimmering pearl,7632,3000;
+			brown giant shimmering pearl,7633,3000;
+			gold ingot,9971,5000;
+			small amethyst,2150,200;
+			small diamond,2145,300;
+			small emerald,2149,250;
+			small ruby,2147,250;
+			small sapphire,2146,250;
+			small topaz,9970,200;
+			violet crystal shard,18414,1500;
+			wedding ring,2121,100;
+			white pearl,2143,160;" />
+		<parameter key="shop_buyable" value="
+			parcel,2595,15;letter,2597,8;label,2599,1;
+			black pearl,2144,560;
+			bronze goblet,5807,2000;
+			golden amulet,2130,6600;
+			golden goblet,5805,5000;
+			ruby necklace,2133,3560;
+			silver goblet,5806,3000;
+			small amethyst,2150,400;
+			small diamond,2145,600;
+			small emerald,2149,500;
+			small ruby,2147,500;
+			small sapphire,2146,500;
+			wedding ring,2121,990;
+			white pearl,2143,320;" />
+	</parameters>
+</npc>

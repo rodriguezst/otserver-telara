@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Jasmin" script="Captain Jasmin.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="142" head="97" body="23" legs="28" feet="76" addons="2" corpse="2212"/>
+    <parameters>
+    </parameters>
+</npc>

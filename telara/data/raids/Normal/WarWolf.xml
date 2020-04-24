@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Many aggressive beasts are roaming west of Ithilien! Take care!" />
+	<areaspawn delay="10000" fromx="881" fromy="285" fromz="7" tox="916" toy="343" toz="7">
+		<monster name="Wolf" amount="40" />
+		<monster name="War Wolf" amount="45" />
+	</areaspawn>
+</raid>

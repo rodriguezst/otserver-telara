@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+<announce delay="1000" type="Event" message="Pirates have been spotted gathering south of Nomad Village!" />
+	<areaspawn delay="10000" fromx="796" fromy="80" fromz="7" tox="835" toy="114" toz="7">
+		<monster name="Pirate Buccaneer" amount="20" />		
+		<monster name="Smuggler" amount="15" />		
+		<monster name="Pirate Marauder" amount="20" />
+		<monster name="Pirate Corsair" amount="20" />
+		<monster name="Pirate Cutthroat" amount="20" />		
+		<monster name="Lethal Lissy" amount="1" />		
+	</areaspawn>
+
+<announce delay="80000" type="Event" message="They are moving towards the town!" />	
+		<areaspawn delay="90000" fromx="796" fromy="80" fromz="7" tox="835" toy="114" toz="7">
+		<monster name="Pirate Buccaneer" amount="20" />
+		<monster name="Pirate Marauder" amount="20" />
+		<monster name="Smuggler" amount="15" />		
+		<monster name="Pirate Corsair" amount="15" />
+		<monster name="Pirate Cutthroat" amount="15" />		
+		<monster name="Pirate Ghost" amount="15" />
+		<monster name="Deadeye Devious" amount="1" />		
+	</areaspawn>
+
+	
+<announce delay="120000" type="Event" message="They are fleeing!" />
+		<areaspawn delay="130000" fromx="796" fromy="80" fromz="7" tox="835" toy="114" toz="7">
+		<monster name="Pirate Buccaneer" amount="20" />
+		<monster name="Pirate Marauder" amount="15" />
+		<monster name="Smuggler" amount="10" />	
+		<monster name="Pirate Corsair" amount="20" />
+		<monster name="Pirate Cutthroat" amount="20" />		
+		<monster name="Pirate Ghost" amount="15" />		
+		<monster name="Brutus Bloodbeard" amount="1" />		
+	</areaspawn>
+	
+<announce delay="200000" type="Event" message="Pirate leaders have been spotted!" />
+		<areaspawn delay="210000" fromx="796" fromy="80" fromz="7" tox="835" toy="114" toz="7">
+		<monster name="Pirate Buccaneer" amount="20" />
+		<monster name="Pirate Marauder" amount="20" />
+		<monster name="Smuggler" amount="15" />	
+		<monster name="Pirate Corsair" amount="20" />
+		<monster name="Pirate Cutthroat" amount="20" />		
+		<monster name="Pirate Ghost" amount="15" />		
+		<monster name="Ron the Ripper" amount="1" />		
+	</areaspawn>
+</raid>

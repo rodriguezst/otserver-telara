@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Scouts report a barbarian army gathering near Skyrim." />
+<announce delay="15000" type="event" message="Some invaders might try to access Skyrim via the ice to the North." />
+<announce delay="35000" type="event" message="Raiders are attacking Skyrim!" />
+
+  <areaspawn delay="35000" fromx="1478" fromy="358" fromz="7" tox="1535" toy="437" toz="7">
+    <monster name="Barbarian Bloodwalker" amount="40" />
+    <monster name="Barbarian Brutetamer" amount="30" />
+    <monster name="Barbarian Headsplitter" amount="30" />
+    <monster name="Barbarian Skullhunter" amount="35" />
+  <monster name="Ice Witch" amount="15" />
+  </areaspawn>
+</raid>

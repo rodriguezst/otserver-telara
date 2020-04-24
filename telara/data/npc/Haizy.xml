@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc name="Haizy" script="Haizy.lua" walkinterval="2000" floorchange="0">
+  <health now="100" max="100" />
+	<look type="130" head="0" body="78" legs="49" feet="117" addons="2" />
+</npc>

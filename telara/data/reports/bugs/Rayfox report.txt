@@ -1,0 +1,7 @@
+------------------------------
+Name: Rayfox [Map position: 973, 1702, 7] [Player Position: 971, 1702, 7]
+Comment: nao sobe escada
+------------------------------
+Name: Rayfox [Map position: 1804, 1476, 6] [Player Position: 1805, 1478, 5]
+Comment: teleportando aqui próximo após completar quest da arena
+

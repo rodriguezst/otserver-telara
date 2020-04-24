@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!-- 
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <announce delay="1000" type="Event" message="Jaul, QJELL AFAR GOU JEY!! DIE!! KENH!!" />
+
+  <!--Single Spawns-->
+  <singlespawn delay="10000" name="Jaul" x="808" y="1312" z="7" />
+</raid>

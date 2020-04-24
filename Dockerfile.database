@@ -1,0 +1,5 @@
+FROM mariadb:10
+
+WORKDIR /docker-entrypoint-initdb.d
+COPY ./tf2.sql ./
+RUN chmod 777 -R ./
